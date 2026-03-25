@@ -7,6 +7,7 @@ import express from "express";
 import cors from "cors";
 import notesRouter from "./routes/notes.js";
 import pyqsRouter from "./routes/pyqs.js";
+import pool from "./db.js";
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -24,6 +25,15 @@ app.use(express.json());
 // ─── Routes ─────────────────────────────────────────────────
 app.use("/api", notesRouter);
 app.use("/api", pyqsRouter);
+
+app.get("/ping", async (_req, res) => {
+  try {
+    await pool.query("SELECT 1");
+    res.status(200).json({ status: "ok", message: "Pong" });
+  } catch (e) {
+    res.status(500).send("Database connection failed")
+  }
+});
 
 // Health check
 app.get("/", (_req, res) => {
