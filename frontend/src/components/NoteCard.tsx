@@ -119,7 +119,7 @@ const NoteCard = ({ item, itemType = "notes" }: { item: Note | PYQ; itemType?: "
             View
           </a>
           <a
-            href={item.file_url}
+            href={`${item.file_url}?download=${item.subject}.pdf`}
             download
             style={{
               display: "inline-flex",
