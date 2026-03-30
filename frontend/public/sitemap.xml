@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://www.campusvault.xyz/</loc>
+    <loc>https://campusvault.xyz/</loc>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://www.campusvault.xyz/courses</loc>
+    <loc>https://campusvault.xyz/courses</loc>
     <priority>0.8</priority>
   </url>
 
