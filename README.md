@@ -61,7 +61,9 @@ Result:
 
 ## 🛠️ Tech Stack
 
-(Add your actual stack here — don’t leave this vague in real repo)
+Frontend: React (Typescript)
+Backend: Node.js
+Database: NeonDB
 
 ---
 
