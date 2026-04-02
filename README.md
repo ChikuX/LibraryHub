@@ -90,3 +90,10 @@ npm start
 👉 Telegram Bot: [Click Here](https://telegram.me/LibraryhandlerBot)
 
 👉 Bot Repo: [Click Here](https://github.com/ChikuX/notes-sharing-bot)
+
+---
+
+## 👨‍💻 Author
+> Developed by Ankit  
+> GitHub: [Click Here](https://github.com/ChikuX)    
+> LinkedIn: [Click Here](https://www.linkedin.com/in/ankit1706/)
