@@ -61,8 +61,8 @@ Result:
 
 ## 🛠️ Tech Stack
 
-Frontend: React (Typescript)
-Backend: Node.js
+Frontend: React (Typescript)  
+Backend: Node.js  
 Database: NeonDB
 
 ---
